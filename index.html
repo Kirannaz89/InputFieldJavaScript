@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+<p id="invalidMsg"></p>
+<div class="container-fluid mt-5">
+  <table id="mylist">
+    <colgroup>
+      <col style="width:25%; height: 25px;">
+      <col style="width:25%; height: 25px;">
+      <col style="width:25%; height: 25px;">
+    </colgroup>
+  
+   <tr style="border:none !important;">
+   <td >Name: <input type="text" id="name" placeholder=" Name Here..."  autocomplete="off"></td>
+    <td >Degree: <input type="text" id="degree" placeholder="Degree title here ..."  autocomplete="off"></td>
+     <td >CGPA: <input type="text" id="cgpa" placeholder="CGPA here..."  autocomplete="off"></td>
+      
+  </tr>
+
+ 
+  </table>
+
+  <br>
+  <br>
+    <button onclick="return addRow();">Add New</button>
+  
+
+</div>
+</body>
+</html>

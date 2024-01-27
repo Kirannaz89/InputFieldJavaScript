@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+table{
+  width: 70%;
+  margin-left: 50px;
+}
+
+table td{
+  padding:5px;
+  border: 1px solid black;
+}
+
+table tr:first-child td{
+  border: none !important;
+  outline : 0;
+}
+ 
+
+/* Align Center */
+h1, p, table td, table td input {
+  text-align: center;
+}
+
+p{
+  color:red;
+}
+
+table td input, table td button{
+  height:30px;
+  width: 70%;
+}
+
+
